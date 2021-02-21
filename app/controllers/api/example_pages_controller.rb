@@ -1,7 +1,7 @@
 class Api::ExamplePagesController < ApplicationController
   def hello_action
                   # user sees
-    render json: {message: "helloooooo"}
+    render 'hello.json.jb'
   end
 
   def goodbye_action
