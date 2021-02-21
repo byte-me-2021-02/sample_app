@@ -1,1 +1,1 @@
-{message: "helloooooo", time: Time.now.strftime("%b %d, %Y %^B")}
+{message: @message, time: @current_time}
