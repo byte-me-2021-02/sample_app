@@ -7,6 +7,6 @@ class Api::ExamplePagesController < ApplicationController
   end
 
   def goodbye_action
-    render json: {messag: "adios"}
+    render 'goodbye.json.jb'
   end
 end
